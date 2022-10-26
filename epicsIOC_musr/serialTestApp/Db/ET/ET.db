@@ -32,20 +32,17 @@ record (bo, "$(SENSOR):ONOFF")
 
 record (ai, "$(SENSOR):STATUS-VOLTAGE_SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "V")
 }
 
 
 record (ai, "$(SENSOR):STATUS-CURRENT_SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
 record (ai, "$(SENSOR):STATUS-POWER_SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "W")
 }
 
@@ -53,14 +50,12 @@ record (ai, "$(SENSOR):STATUS-POWER_SETTING")
 
 record (ai, "$(SENSOR):STATUS-VOLTAGE")
 {
-    field (DTYP, "stream")
     field (EGU,  "V")
 }
 
 
 record (ai, "$(SENSOR):STATUS-CURRENT")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
