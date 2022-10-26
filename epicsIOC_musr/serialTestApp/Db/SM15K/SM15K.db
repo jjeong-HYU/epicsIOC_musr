@@ -43,85 +43,75 @@ record (bo, "$(SENSOR):ONOFF")
 
 record (ai, "$(SENSOR):STATUS-VOLTAGE_MAX-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "V")
 }
 
 
 record (ai, "$(SENSOR):STATUS-CURRENT_MAX_POS-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
 
 record (ai, "$(SENSOR):STATUS-CURRENT_MAX_NEG-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
 
 record (ai, "$(SENSOR):STATUS-POWER_MAX_POS-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "W")
 }
 
 
 record (ai, "$(SENSOR):STATUS-POWER_MAX_NEG-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "W")
 }
 
 record (ai, "$(SENSOR):STATUS-OUTPUT_VOLTAGE_STEPSIZE")
 {
-    field (DTYP, "stream")
+
 }
 
 record (ai, "$(SENSOR):STATUS-OUTPUT_CURRENT_STEPSIZE")
 {
-    field (DTYP, "stream")
+
 }
 record (ai, "$(SENSOR):STATUS-OUTPUT_POWER_STEPSIZE")
 {
-    field (DTYP, "stream")
+
 }
 
 # ########################################
 
 record (ai, "$(SENSOR):STATUS-VOLTAGE-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "V")
 }
 
 
 record (ai, "$(SENSOR):STATUS-CURRENT_POS-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
 
 record (ai, "$(SENSOR):STATUS-CURRENT_NEG-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
 
 record (ai, "$(SENSOR):STATUS-POWER_POS-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "W")
 }
 
 
 record (ai, "$(SENSOR):STATUS-POWER_NEG-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "W")
 }
 
@@ -129,19 +119,16 @@ record (ai, "$(SENSOR):STATUS-POWER_NEG-SETTING")
 
 record (ai, "$(SENSOR):STATUS-VOLTAGE")
 {
-    field (DTYP, "stream")
     field (EGU,  "V")
 }
 
 record (ai, "$(SENSOR):STATUS-CURRENT")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
 record (ai, "$(SENSOR):STATUS-POWER")
 {
-    field (DTYP, "stream")
     field (EGU,  "W")
 }
 
