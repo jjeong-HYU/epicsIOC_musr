@@ -68,37 +68,31 @@ record (ao, "$(SENSOR):SET-CURRENT")
 
 record (ai, "$(SENSOR):STATUS-VOLTAGE_MAX")
 {
-    field (DTYP, "stream")
     field (EGU,  "V")
 }
 
 record (ai, "$(SENSOR):STATUS-VOLTAGE")
 {
-    field (DTYP, "stream")
     field (EGU,  "V")
 }
 
 record (ai, "$(SENSOR):STATUS-VOLTAGE-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "V")
 }
 
 record (ai, "$(SENSOR):STATUS-CURRENT_MAX")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
 record (ai, "$(SENSOR):STATUS-CURRENT")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
 record (ai, "$(SENSOR):STATUS-CURRENT-SETTING")
 {
-    field (DTYP, "stream")
     field (EGU,  "A")
 }
 
