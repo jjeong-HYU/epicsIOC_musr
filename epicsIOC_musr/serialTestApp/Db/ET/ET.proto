@@ -1,6 +1,6 @@
 ReplyTimeout = 200;
 OutTerminator = LF;
-InTerminator = LF;
+InTerminator = CR;
 
 # No outTerminator because we need to send ENQ clean or RS485 will mess up the reply.
 
