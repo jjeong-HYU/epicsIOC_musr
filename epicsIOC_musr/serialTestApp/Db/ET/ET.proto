@@ -12,7 +12,7 @@ set_onoff
 {
     out "SB,""%{S|R}";
     out "SB";
-    in "$(\$2:STATUS-ONOFF){S|R}";
+    in "%(\$2:STATUS-ONOFF){S|R}";
 }
 
 set_voltage
@@ -60,7 +60,7 @@ get_powerlimit
 read_status
 {
     out "STATUS";
-    in "STATUS,""%14d""$(\$2:STATUS-ONOFF)1d%1d";
+    in "STATUS,""%14d""%(\$2:STATUS-ONOFF)1d%1d";
     get_voltage;
     get_current;
 }
