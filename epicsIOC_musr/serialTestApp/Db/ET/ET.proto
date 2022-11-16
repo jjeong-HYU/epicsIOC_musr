@@ -17,44 +17,44 @@ set_onoff
 
 set_voltage
 {
-    out "UA,""%d";
+    out "UA,""%f";
 }
 
 set_current
 {
-    out "IA,""%d";
+    out "IA,""%f";
 }
 set_powerlimit
 {
-    out "PA,""%d";
+    out "PA,""%f";
 }
 
 get_voltage
 {
     out "MU";
-    in "MU,""%(\$2:STATUS-VOLTAGE)d""V"; 
+    in "MU,""%(\$2:STATUS-VOLTAGE)f""V"; 
 }
 
 get_current
 {
     out "MI";
-    in "MI,""%(\$2:STATUS-CURRENT)d""A"; 
+    in "MI,""%(\$2:STATUS-CURRENT)f""A"; 
 }
 
 get_voltagelimit
 {
     out "UA";
-    in "UA,""%(\$2:STATUS-VOLTAGE_SETTING)d""A"; 
+    in "UA,""%(\$2:STATUS-VOLTAGE_SETTING)f""A"; 
 }
 get_currentlimit
 {
     out "IA";
-    in "IA,""%(\$2:STATUS-CURRENT_SETTING)d""A"; 
+    in "IA,""%(\$2:STATUS-CURRENT_SETTING)f""A"; 
 }
 get_powerlimit
 {
     out "PA";
-    in "PA,""%(\$2:STATUS-POWER_SETTING)d""A"; 
+    in "PA,""%(\$2:STATUS-POWER_SETTING)f""A"; 
 }
 
 read_status
